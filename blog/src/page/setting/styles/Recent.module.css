@@ -1,0 +1,38 @@
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+.container .body .title {
+  text-align: left;
+  font-size: 24px;
+  font-weight: 400;
+}
+.container .body .items .item {
+  padding: 16px;
+  border-top: 1px rgba(192, 192, 192, 0.123) solid;
+}
+.container .body .items .item:hover {
+  background-color: rgba(230, 228, 228, 0.534);
+}
+.container .body .items .item .item_content {
+  text-align: left;
+  height: 20px;
+  display: flex;
+  align-items: flex-end;
+}
+.container .body .items .item .item_content .icon {
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  padding: 0;
+  margin-right: 10px;
+}
+.container .body .items .item .item_content .blog_title {
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+}

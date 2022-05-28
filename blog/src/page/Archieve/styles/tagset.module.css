@@ -1,0 +1,36 @@
+
+.tagset{
+    padding: 10px;
+    text-align: left;
+    border: 10px solid  rgba(117,121,255,0.8);
+    border-radius: 5px;
+    
+    /* border: 5px solid #EE675C */
+}   
+.head{
+    display: flex;
+    font-size: 18px;
+    color: #7579FF;
+    font-weight: 600;
+}
+.head img{
+    width: 20px;
+    height: 20px;
+}
+.list{
+    display: flex;
+    width: 400px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.item{
+    color: #1B1C37;
+    font-weight: 550;
+    height: 30px;
+    font-size: 24px;
+    margin-right: 15px;
+    margin-top: 20px;
+    padding: 5px ;
+    background-color: #EDEEFF;
+    text-align: center;
+}

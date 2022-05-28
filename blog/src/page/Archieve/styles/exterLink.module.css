@@ -1,0 +1,36 @@
+/* 去除a的默认样式 */
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+}
+.externalLinks{
+    text-align: left;
+    padding: 20px;
+    /* border: 5px solid #d9d9d9; */
+    border: 10px solid  rgba(117,121,255,0.8);
+}
+.head{
+    display: flex;
+}
+.head img{
+    width: 20px;
+    height: 20px;
+}
+.item{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.item a{
+    text-decoration: none;
+}
+
+.bar{
+    width: 100%;
+    border: 2px solid #d9d9d9;
+}

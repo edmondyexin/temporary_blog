@@ -1,0 +1,49 @@
+@center-padding:45px;
+@center-move-right-padding:40px;
+@title_font_size:24px;
+
+@right-padding:15px;
+button,div{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    // overflow-x: hidden;
+    // overflow-y: hidden;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    .left{
+        flex:1;
+        overflow: hidden;
+        height: 100vh;
+    }
+    .center{
+        padding:@center-padding;
+        flex:3;
+        overflow: hidden;
+        height: 100vh;
+        .center_top{
+            display:flex;
+            justify-content:space-between;
+            align-items: flex-end;
+            padding-right: @center-move-right-padding;
+            .center_title{
+                text-align: left;
+                font-size: @title_font_size;
+            }
+        }
+        .top{
+            .title{
+                font-size: @title_font_size;
+                font-weight: 500;
+            }
+        }
+    }
+    .right{
+        text-align: center;
+        flex:1;
+        padding: @right-padding;
+    }
+}

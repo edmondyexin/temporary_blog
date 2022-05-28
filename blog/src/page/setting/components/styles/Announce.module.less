@@ -1,0 +1,36 @@
+ul,
+li ,p{
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+@title-color:black;
+@title-size:16px;
+@font-color: rgb(122, 122, 124);
+@font-size: 12px;
+@model-color:rgb(196, 196, 204);
+@mole-size:12px;
+@gap-size:12px;
+
+.container{
+    .title {
+        text-align: left;
+        font-size: @title-size;
+        margin-bottom: @gap-size;
+    }
+    .mole{
+        color: @model-color;
+        font-size: @mole-size;
+    }
+}
+.list {
+    .item {
+        color: @font-color;
+        font-size: @font-size;
+        margin-bottom: @gap-size/2;
+    }
+    margin-bottom: @gap-size;
+}

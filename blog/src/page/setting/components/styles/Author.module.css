@@ -1,0 +1,12 @@
+.container {
+  text-align: center;
+  padding: 15px;
+  height: 50%;
+}
+.container .portrait {
+  width: 168px;
+  height: 168px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 255, 0.445);
+  margin-bottom: 20px;
+}

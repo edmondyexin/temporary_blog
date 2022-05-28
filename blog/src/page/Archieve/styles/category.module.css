@@ -1,0 +1,37 @@
+.list{
+    display: flex;
+    /* background-color: aquamarine; */
+    border: 5px solid  rgba(117,121,255,0.8);
+
+    border-radius: 5px;
+    padding: 5px;
+    position: relative;
+}
+/* .text{
+    display: flex;
+    justify-items: center;
+} */
+.text::after{
+    content: " ";
+    clear: both;
+    display: block;
+}
+.title{
+    text-align: left;
+    float: left;
+}
+.tip{
+    float: right;
+    text-align: left;
+    font-weight: 300;
+    color: #8c8c8c;
+}
+.item{
+    width: 80px;
+    height: 30px;
+    font-size: 24px;
+    padding: 5px 0;
+    margin-right: 20px;
+    background-color: rgba(117,121,255,0.7);
+    color: white;
+}

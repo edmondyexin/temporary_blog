@@ -1,0 +1,30 @@
+.archive_page{
+    position: relative;
+}
+.content{
+    padding: 30px 100px ;
+    /* 适配 需要修改 */
+    display: flex;
+}
+.block_box{
+    position: relative;
+}
+.block{
+    background: radial-gradient(circle ,#B224EF,#7579FF);
+    opacity: 0.12;
+    position: absolute;
+    /* left: 100px; */
+    border-radius: 45%;
+    top: 200px;
+    width: 80px;
+    height: 80px;
+    box-shadow:0 0 13px 1px rgba(210, 170, 250, 0.2);
+}
+
+.left{
+    margin-top: 80px;
+    margin-right: 100px;
+}
+.tags{
+    margin-bottom: 50px;
+}

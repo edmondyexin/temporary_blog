@@ -1,0 +1,22 @@
+.box {
+  position: relative;
+  width: 200px;
+}
+.box .input {
+  outline-style: none;
+  border: 2px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+  width: 200px;
+  height: 20px;
+  padding-left: 24px;
+  background: #fdfdfd;
+}
+.box .searchIcon {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 8%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

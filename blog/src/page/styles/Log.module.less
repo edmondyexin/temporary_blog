@@ -1,0 +1,96 @@
+@page-padding: 20px;
+@portrait: 200px;
+@page_font: 24px;
+@info_font_size: 18px;
+
+@font_color: white;
+@title_bgk: #FCA034;
+@normal_bgk: #6CB48F;
+@title_color:#4E7D5E;
+@text_color:#707581;
+@top_color:#4E7D5E;
+.container{
+    
+    display: flex;
+    padding: @page-padding;
+    padding-top: 20px;
+    position: relative;
+    .forest{
+        position: absolute;
+        left: 850px;
+        top: -40px;
+        z-index: 1;
+        opacity: 0.2;
+        height: 100vh;
+
+    }
+    .author_title{
+        color: @title_color;
+        font-weight: 700;
+        font-size: 18px;
+    }
+    .left{
+        flex-grow: 1;
+        padding: 5px;
+        // border: 5px solid #1890ff;
+        border-radius: 5px;
+        font-size: info_font_size;
+        flex-direction: column;
+        text-align: left;
+        height: 100vh-10px;
+        display: flex;
+        flex-direction: column;
+        .author{
+            flex: 1;
+            img{
+                width: @portrait;
+                height: @portrait;
+                border-radius: 50%;
+            }
+            .name{
+                color: #000000;
+                font-weight: 700;
+            }
+            .info{
+                color: #707581;
+            }
+            p{
+                margin-top: 20px;
+            }
+        }
+        .progress{
+            margin-top: 20px;
+            flex: 1;
+            text-align: left;
+            .progress_title{
+                color: @title_color;
+                font-weight: 700;
+                font-size: 18px;
+            }
+            p{
+                text-align: left;
+                margin-top: 20px;
+                color: #707581;
+            }
+        }
+    }   
+    .middle{
+        text-align: left;
+        flex-grow: 9;
+        padding: 50px;
+        padding-top: 0px;
+        .log{
+            .log_title{
+                background-color: #6CB48F;
+                padding: 5px 10px;
+                font-size: 24px;
+                border-radius: 5px;
+                color: white;
+                font-weight: 700;
+            }
+        }
+        .word{
+            text-align: center;
+        }
+    }
+}
